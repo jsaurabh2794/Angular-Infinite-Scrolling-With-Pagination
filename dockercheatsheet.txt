@@ -1,0 +1,12 @@
+Docker Cheat Sheet:
+
+Docker images
+docker containers ls
+docker run -p x:x -d containername:tag
+docker rm <containerid>
+docker rmi <imageid>
+docker build . -t <nameofimage>
+
+---Dcoker Compose---
+docker-compose up --force-recreate
+docker-compose down
